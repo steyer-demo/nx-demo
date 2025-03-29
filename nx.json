@@ -57,5 +57,5 @@
     "@nx/angular:component": { "style": "css" }
   },
   "release": { "version": { "preVersionCommand": "npx nx run-many -t build" } },
-  "nxCloudId": "67e8716b1a3b8b3f4949029d"
+  "nxCloudId": "67e874381a3b8b3f494902a3"
 }
