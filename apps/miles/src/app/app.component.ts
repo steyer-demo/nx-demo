@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { UtilAuthComponent } from '@my-project/util-auth';
 
 @Component({
-  imports: [NxWelcomeComponent, RouterModule, UtilAuthComponent],
+  imports: [NxWelcomeComponent, RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
